@@ -24,3 +24,5 @@ function raffle() {
       clearInterval(inv);
   }
 }
+
+function test(){}
