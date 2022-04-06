@@ -15,7 +15,7 @@ function getMax() {
 function raffle() {
   var element =  document.getElementById('num')
   var i = 0;
-  var chosen = Math.random(1,max);
+  var chosen = Math.floor(Math.random() * (max - min + 1) ) + min;
 
   var inv = setInterval(count, 3000 / 100)
 
