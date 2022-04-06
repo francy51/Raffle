@@ -8,10 +8,6 @@ if (max == null || max == "") {
   num = Number(max);
 }
 
-function getMax() {
-
-}
-
 function raffle() {
   var element =  document.getElementById('num')
   var i = 0;
