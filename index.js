@@ -1,5 +1,6 @@
 
 var num;
+var min = 1;
 var max = prompt("Massimo numero", "300");
 if (max == null || max == "") {
   txt = "User cancelled the prompt.";
