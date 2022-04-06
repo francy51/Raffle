@@ -11,10 +11,10 @@ function getMax() {
 
 }
 
-function raffle(max) {
+function raffle() {
   var element =  document.getElementById('num')
   var i = 0;
-  var chosen = getRandomIntInclusive(144, max)
+  var chosen = getRandomIntInclusive(0, max)
 
   var inv = setInterval(count, 3000 / 100)
 
